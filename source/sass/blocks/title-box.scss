@@ -1,0 +1,22 @@
+.title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: $bebas-neue;
+  text-transform: uppercase;
+}
+
+.title-box__title {
+  font-size: 33px;
+  line-height: 33px;
+  letter-spacing: 3px;
+  margin: 0;
+  width: 187px;
+  order: 1;
+}
+
+.title-box__subtitle {
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
